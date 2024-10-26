@@ -3,7 +3,7 @@ import useCounter from './useCounter';
 
 function Hooks() {
 
-    const [counter, increment, decrement, reset] = useCounter(10, 5);
+    const [counter, increment, decrement, reset] = useCounter(1, 3);
 
     return (
         <>
